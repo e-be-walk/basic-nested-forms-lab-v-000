@@ -2,7 +2,7 @@
   Title:
     <%= f.text_field :title %><br>
 
-  Ingredients:
+  Ingredients: <br>
     <%= f.fields_for :ingredients do |ingredient| %>
 
       <%= ingredient.text_field :name %> 
